@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+
+    <head>
+      <% include ../partials/head %>
+    </head>
+
+    <body class="container">
+      <header>
+        <% include ../partials/header %>
+      </header>
+      <!-- <% include ../partials/form %> -->
+      <form method="post" action="http://localhost:3001/users">
+        <label>Enter Your Name</label><br>
+        <input type="text" name="firstName" placeholder="Enter first name...">
+        <input type="text" name="lastName" placeholder="Enter last name...">
+        <input type="submit" value="Add Name">
+      </form>
+
+      <button id="button" type="button" name="button">Update</button>
+
+      <div id="details">
+        <ul>
+
+        </ul>
+      </div>
+
+      <div id="form1">
+      </div>
+
+      <footer>
+        <% include ../partials/footer %>
+      </footer>
+
+      <%include ../partials/script %>
+
+    </body>
+
+    </html>
+ to <%= title %></p>
+  </body>
+</html>
